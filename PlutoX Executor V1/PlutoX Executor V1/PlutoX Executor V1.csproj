@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>PlutoX_Executor_V1</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="FastColoredTextBox">
+      <HintPath>..\..\..\..\Downloads\FastColoredTextBox.dll</HintPath>
+    </Reference>
+    <Reference Include="ForlornApi">
+      <HintPath>..\..\..\..\Downloads\ForlornApi.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
